@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="263" viewBox="0 0 1200 263">
+<rect width="100%" height="100%" rx="12" fill="#0d1117"/><rect width="100%" height="42" rx="12" fill="#21262d"/>
+<circle cx="22" cy="21" r="6" fill="#ff5f56"/><circle cx="42" cy="21" r="6" fill="#ffbd2e"/><circle cx="62" cy="21" r="6" fill="#27c93f"/>
+<style>text{font-family:'DejaVu Sans Mono',monospace;font-size:17px}.cmd{fill:#7ee787;font-weight:bold}.out{fill:#c9d1d9}</style><text x="32" y="82" class="cmd">$ python cache_simulator.py /tmp/demo-large.bin --size-mb 16 --reads 3</text>
+<text x="32" y="110" class="out">Creando archivo de demostración de 16 MiB: /tmp/demo-large.bin</text>
+<text x="32" y="138" class="out">Lectura 1: disco        |     6.655 ms | 16.0 MiB</text>
+<text x="32" y="166" class="out">Lectura 2: RAM (caché)  |     0.003 ms | 16.0 MiB</text>
+<text x="32" y="194" class="out">Lectura 3: RAM (caché)  |     0.002 ms | 16.0 MiB</text>
+<text x="32" y="222" class="out">Integridad SHA-256: 639d3203cce6fa4213118d22f2425f19e021bc6cbf18b08d3d6e009b94facd61</text></svg>

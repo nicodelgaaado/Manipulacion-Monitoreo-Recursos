@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="235" viewBox="0 0 1200 235">
+<rect width="100%" height="100%" rx="12" fill="#0d1117"/><rect width="100%" height="42" rx="12" fill="#21262d"/>
+<circle cx="22" cy="21" r="6" fill="#ff5f56"/><circle cx="42" cy="21" r="6" fill="#ffbd2e"/><circle cx="62" cy="21" r="6" fill="#27c93f"/>
+<style>text{font-family:'DejaVu Sans Mono',monospace;font-size:17px}.cmd{fill:#7ee787;font-weight:bold}.out{fill:#c9d1d9}</style><text x="32" y="82" class="cmd">$ python priority_benchmark.py --iterations 3000000</text>
+<text x="32" y="110" class="out">Procesos listos; iniciando 3,000,000 iteraciones simultáneas...</text>
+<text x="32" y="138" class="out">baja              PID 5108 | 0.262 s | prioridad aplicada (nice=19) | resultado 468941</text>
+<text x="32" y="166" class="out">alta/tiempo real  PID 5109 | 0.272 s | prioridad no autorizada; se conserva SCHED_OTHER/nice=0 | resultado 468941</text>
+<text x="32" y="194" class="out">Terminó primero: baja</text></svg>

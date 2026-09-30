@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="319" viewBox="0 0 1200 319">
+<rect width="100%" height="100%" rx="12" fill="#0d1117"/><rect width="100%" height="42" rx="12" fill="#21262d"/>
+<circle cx="22" cy="21" r="6" fill="#ff5f56"/><circle cx="42" cy="21" r="6" fill="#ffbd2e"/><circle cx="62" cy="21" r="6" fill="#27c93f"/>
+<style>text{font-family:'DejaVu Sans Mono',monospace;font-size:17px}.cmd{fill:#7ee787;font-weight:bold}.out{fill:#c9d1d9}</style><text x="32" y="82" class="cmd">$ python resource_monitor.py --samples 3 --interval 0.1 --ram-threshold 0</text>
+<text x="32" y="110" class="out">Vigilante iniciado (Ctrl+C para detener)</text>
+<text x="32" y="138" class="out">[2026-09-30 23:55:21] CPU:   0.0% | RAM:   5.0% (0.87/17.59 GiB)</text>
+<text x="32" y="166" class="out">  ⚠ Alerta guardada en /tmp/ram_alerts.txt</text>
+<text x="32" y="194" class="out">[2026-09-30 23:55:21] CPU:   0.0% | RAM:   5.0% (0.87/17.59 GiB)</text>
+<text x="32" y="222" class="out">  ⚠ Alerta guardada en /tmp/ram_alerts.txt</text>
+<text x="32" y="250" class="out">[2026-09-30 23:55:21] CPU:   0.0% | RAM:   5.0% (0.87/17.59 GiB)</text>
+<text x="32" y="278" class="out">  ⚠ Alerta guardada en /tmp/ram_alerts.txt</text></svg>
