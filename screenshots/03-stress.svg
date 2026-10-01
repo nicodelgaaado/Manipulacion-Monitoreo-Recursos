@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="263" viewBox="0 0 1200 263">
+<rect width="100%" height="100%" rx="12" fill="#0d1117"/><rect width="100%" height="42" rx="12" fill="#21262d"/>
+<circle cx="22" cy="21" r="6" fill="#ff5f56"/><circle cx="42" cy="21" r="6" fill="#ffbd2e"/><circle cx="62" cy="21" r="6" fill="#27c93f"/>
+<style>text{font-family:'DejaVu Sans Mono',monospace;font-size:17px}.cmd{fill:#7ee787;font-weight:bold}.out{fill:#c9d1d9}</style><text x="32" y="82" class="cmd">$ python memory_stress.py --max-mb 48 --seconds 5 --chunk-mb 16</text>
+<text x="32" y="110" class="out">PID 4690 | límite=48 MiB/5.0 s | Ctrl+C para detener</text>
+<text x="32" y="138" class="out">Reservados:    16 MiB | RAM:   5.1% | swap:   0.0%</text>
+<text x="32" y="166" class="out">Reservados:    32 MiB | RAM:   5.2% | swap:   0.0%</text>
+<text x="32" y="194" class="out">Reservados:    48 MiB | RAM:   5.3% | swap:   0.0%</text>
+<text x="32" y="222" class="out">Fin seguro: se alcanzaron 48 MiB; memoria liberada.</text></svg>

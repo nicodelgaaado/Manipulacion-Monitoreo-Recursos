@@ -1,0 +1,1 @@
+# No requiere paquetes externos: usa /proc, la interfaz de métricas del kernel Linux.
