@@ -20,6 +20,30 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
+## Entorno Linux de ejecución
+
+Las ejecuciones y capturas incluidas en este repositorio se realizaron con las
+siguientes características:
+
+| Componente | Característica |
+|---|---|
+| Distribución | Ubuntu 24.04.4 LTS (Noble Numbat) |
+| Kernel | Linux 6.18.44, arquitectura x86_64 |
+| Procesador | AMD EPYC 9V74; 3 CPU virtuales disponibles |
+| Memoria visible | 17 GiB de RAM aproximadamente |
+| Memoria swap | No habilitada (`0 B`) |
+| Virtualización | Contenedor Docker sobre un hipervisor KVM |
+| Python | CPython 3.14.4 |
+| Interfaz de ejecución | Terminal Bash, sin entorno gráfico |
+
+Estos datos son importantes al interpretar los resultados. Los tiempos dependen de
+la carga del procesador y del almacenamiento; además, la prueba registrada no pudo
+mostrar crecimiento de memoria virtual porque el sistema no tenía swap habilitada.
+Del mismo modo, el contenedor no disponía del privilegio `CAP_SYS_NICE`, por lo que
+Linux rechazó la solicitud de prioridad de tiempo real y el programa conservó
+`SCHED_OTHER` para ese proceso. Estas dos limitaciones quedan visibles en las
+capturas, en lugar de simular resultados que el sistema no produjo.
+
 ## 1. Vigilante de recursos
 
 Muestra CPU y RAM en tiempo real. Cuando RAM es **mayor** que el umbral (80% por
